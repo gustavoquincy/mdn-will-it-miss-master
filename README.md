@@ -3,4 +3,5 @@
 One case study on NASA's open API concerning potentially hazardous space objects threatening our existence on Earth. [link here](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain)
 
 
-[Imgur](https://imgur.com/QdbPr6l)
+<!-- [Imgur](https://imgur.com/QdbPr6l) -->
+[img]https://i.imgur.com/QdbPr6l.png[/img]
