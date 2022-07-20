@@ -1,7 +1,6 @@
 # Near misses
 
-One case study on NASA's open API concerning potentially hazardous space objects threatening our existence on Earth. [link here](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain)
+One case study on [NASA's open API](https://api.nasa.gov/) concerning potentially hazardous space objects threatening our existence on Earth. [live here](https://near-misses.netlify.app/)
 
 
-<!-- [Imgur](https://imgur.com/QdbPr6l) -->
-[img]https://i.imgur.com/QdbPr6l.png[/img]
+[img](https://i.imgur.com/QdbPr6l.png)
