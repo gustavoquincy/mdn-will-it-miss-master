@@ -8,13 +8,16 @@ function getDate(d = new Date()) {
   return d.toJSON().split('T')[0];
 }
 
+
 const fetchData = () =>
   fetch(
-    `https://api.nasa.gov/neo/rest/v1/feed?start_date=${getDate()}&api_key=DEMO_KEY`
+    `https://ssd-api.jpl.nasa.gov/cad.api?neo="true"&date-min=${getDate()}&&api-key="nZCgQPQRm78qdVwSH3JSE4WDLk4GBlN3DbY6UU9b"`
   ).then((res) => res.json());
 
 export default function App() {
   const data = useAsync(fetchData, []);
+
+  console.log(data);
 
   if (data.loading) {
     document.title = 'Counting potential earth HAZARDS…';
