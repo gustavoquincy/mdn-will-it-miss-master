@@ -11,9 +11,13 @@ function getDate(d = new Date()) {
 
 const fetchData = () =>
   fetch(
-    `https://ssd-api.jpl.nasa.gov/cad.api?neo="true"&date-min=${getDate()}&&api-key="nZCgQPQRm78qdVwSH3JSE4WDLk4GBlN3DbY6UU9b"`
+    `https://ssd-api.jpl.nasa.gov/cad.api?neo=true&date-min=${getDate()}&&api-key=nZCgQPQRm78qdVwSH3JSE4WDLk4GBlN3DbY6UU9b`
   ).then((res) => res.json());
 
+/* 
+Access to fetch at 'https://ssd-api.jpl.nasa.gov/cad.api?neo=true&date-min=2022-07-21&&api-key=nZCgQPQRm78qdVwSH3JSE4WDLk4GBlN3DbY6UU9b' from origin 'http://localhost:1234' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+*/ 
+  
 export default function App() {
   const data = useAsync(fetchData, []);
 
