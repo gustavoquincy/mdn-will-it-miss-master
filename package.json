@@ -4,6 +4,7 @@
   "description": "Should always check if the planet will be hit",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "test": "node tests/*.js"
   },
   "author": "kaiy",
